@@ -1,0 +1,18 @@
+.wrap {
+  max-height: 68px;
+  float: left;
+  position: relative;
+  z-index: 21;
+
+  .logo {
+    display: inline-block;
+    max-height: 60px;
+    vertical-align: middle;
+  }
+
+  .desc {
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+}
