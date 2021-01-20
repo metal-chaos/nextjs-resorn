@@ -1,0 +1,56 @@
+@import '../../variable';
+
+.container {
+  width: 33.3333333%;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+
+  &:hover {
+    background: $quaternary;
+  }
+
+  &:nth-child(n+7):nth-child(-n+9) {
+    padding-bottom: 35px;
+  }
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 0.83em;
+  }
+
+  .wrap {
+    text-align: left;
+    padding: 0 30px;
+
+    .infoWrap {
+      margin: 0;
+      font-size: $font-sml;
+
+      &:first-child {
+        margin-bottom: 5px;
+      }
+
+      .subtitle {
+        display: inline-block;
+      }
+
+      .desc {
+        display: inline-block;
+        margin-left: 5px;
+
+        .info {
+          color: $secondary;
+          font-weight: bold;
+        }
+      }
+  }
+  }
+}

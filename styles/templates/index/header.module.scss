@@ -1,8 +1,8 @@
 .wrap {
   max-height: 68px;
-  float: left;
   position: relative;
-  z-index: 21;
+  width: 100%;
+  z-index: 50;
 
   .logo {
     display: inline-block;
@@ -14,5 +14,8 @@
     padding: 0 0 0 20px;
     font-size: 14px;
     vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    font-weight: normal;
   }
 }

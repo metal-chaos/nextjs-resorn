@@ -1,0 +1,29 @@
+@import '../../variable';
+
+.container {
+  margin: auto;
+  margin: 50px 150px;
+  text-align: center;
+
+  .title {
+  }
+
+  .area_wrap {
+    background: $base;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -moz-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -ms-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    display: flex;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}

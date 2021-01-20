@@ -1,0 +1,31 @@
+@import '../../variable';
+
+.container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  .wrap {
+    .button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      width: 90px;
+      height: 100%;
+      font-size: 1rem;
+      cursor: pointer;
+      background: $primary;
+      color: $base;
+      -webkit-transition: all 100ms ease-in-out;
+      -moz-transition: all 100ms ease-in-out;
+      -ms-transition: all 100ms ease-in-out;
+      -o-transition: all 100ms ease-in-out;
+      transition: all 100ms ease-in-out;
+
+      &:hover {
+        background: $secondary;
+      }
+    }
+  }
+}
