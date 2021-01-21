@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}

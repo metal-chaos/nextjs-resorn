@@ -1,0 +1,28 @@
+@import '../../variable';
+
+.container {
+  padding: 10px 15px;
+  width: 33.333333333%;
+
+  .title {
+    font-size: $font-big;
+  }
+
+  .image {
+    -webkit-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -moz-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -ms-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    max-width: 130px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .desc {
+    font-size: $font-sml;
+    text-align: left;
+    color: $sub-vv;
+    max-width: 80%;
+    margin: auto;
+  }
+}
