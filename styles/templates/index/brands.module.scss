@@ -1,0 +1,30 @@
+@import '../../variable';
+
+.container {
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+
+  .desc {
+    vertical-align: middle;
+
+    &:before {
+      padding-right: 10px;
+      content: "";
+      background-image: url(/util/idea.svg);
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      background-size: contain;
+      vertical-align: bottom;
+    }
+  }
+
+  .wrap {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}

@@ -7,6 +7,7 @@ import Background from '../components/templates/index/background'
 import GrayBackground from '../components/templates/index/graybackground'
 import Areas from '../components/templates/index/areas'
 import Features from '../components/templates/index/features'
+import Brands from '../components/templates/index/brands'
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         <Areas></Areas>
         <Features></Features>
       </GrayBackground>
+      <Layout>
+        <Brands></Brands>
+      </Layout>
     </Background>
     )
 }

@@ -1,0 +1,23 @@
+@import '../../variable';
+
+.container {
+  padding: 30px;
+  padding-top: 50px;
+  height: 250px;
+
+  .image {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .recommend {
+    background: $primary;
+    color: $base;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: $font-sml;
+    padding: 2px 0;
+  }
+}
