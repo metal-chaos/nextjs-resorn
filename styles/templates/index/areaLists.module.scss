@@ -1,0 +1,43 @@
+@import '../../variable';
+
+.container {
+  margin: auto;
+  margin: 50px 150px;
+  text-align: left;
+
+  > .title {
+    text-align: center;
+  }
+
+  .areaWrap {
+    margin: 10px 0;
+
+    .title {
+      width: 15%;
+      display: inline-block;
+      font-weight: bold;
+      vertical-align: top;
+
+      .link {
+        color: $text-color;
+      }
+    }
+
+    .wrap {
+      width: 85%;
+      margin: 0;
+      display: inline-block;
+
+      .infoWrap {
+        list-style-type: none;
+        margin: 0;
+
+        .info {
+          display: inline-block;
+          margin-right: 10px;
+          font-size: $font-sml;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import '../../variable';
+
+.anchor {
+  color: $sub-vv;
+  text-decoration: underline;
+
+  &:hover {
+    color: $sub-v;
+  }
+}
