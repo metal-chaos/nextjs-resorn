@@ -6,7 +6,7 @@
   text-align: left;
 
   > .title {
-    text-align: center;
+    text-align: left;
   }
 
   .areaWrap {
@@ -27,17 +27,6 @@
       width: 85%;
       margin: 0;
       display: inline-block;
-
-      .infoWrap {
-        list-style-type: none;
-        margin: 0;
-
-        .info {
-          display: inline-block;
-          margin-right: 10px;
-          font-size: $font-sml;
-        }
-      }
     }
   }
 }

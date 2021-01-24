@@ -1,10 +1,10 @@
 export const AREAS = [
-  { area: "北海道", link: "hokkaido", prefectures:
+  { name: "北海道", link: "hokkaido", objects:
     [
       { name: "北海道", link: "hokkaido" }
     ]
   },
-  { area: "東北", link: "tohoku", prefectures:
+  { name: "東北", link: "tohoku", objects:
     [
       { name: "青森県", link: "aomori" },
       { name: "岩手県", link: "iwate" },
@@ -14,7 +14,7 @@ export const AREAS = [
       { name: "福島県", link: "fukushima" },
     ]
   },
-  { area: "関東", link: "kanto", prefectures:
+  { name: "関東", link: "kanto", objects:
     [
       { name: "茨城県", link: "ibaraki" },
       { name: "栃木県", link: "tochigi" },
@@ -25,7 +25,7 @@ export const AREAS = [
       { name: "神奈川県", link: "kanagawa" },
     ]
   },
-  { area: "北陸", link: "hokuriku", prefectures:
+  { name: "北陸", link: "hokuriku", objects:
     [
       { name: "新潟県", link: "niigata" },
       { name: "富山県", link: "toyama" },
@@ -33,7 +33,7 @@ export const AREAS = [
       { name: "福井県", link: "fukui" },
     ]
   },
-  { area: "中部", link: "chubu", prefectures:
+  { name: "中部", link: "chubu", objects:
     [
       { name: "山梨県", link: "yamanashi" },
       { name: "長野県", link: "nagano" },
@@ -42,7 +42,7 @@ export const AREAS = [
       { name: "愛知県", link: "aichi" },
     ]
   },
-  { area: "関西・近畿", link: "kansai", prefectures:
+  { name: "関西・近畿", link: "kansai", objects:
     [
       { name: "三重県", link: "mie" },
       { name: "滋賀県", link: "shiga" },
@@ -53,7 +53,7 @@ export const AREAS = [
       { name: "和歌山県", link: "wakayama" },
     ]
   },
-  { area: "中国", link: "chugoku", prefectures:
+  { name: "中国", link: "chugoku", objects:
     [
       { name: "鳥取県", link: "tottori" },
       { name: "島根県", link: "shimane" },
@@ -62,7 +62,7 @@ export const AREAS = [
       { name: "山口県", link: "yamaguchi" },
     ]
   },
-  { area: "四国", link: "shikoku", prefectures:
+  { name: "四国", link: "shikoku", objects:
     [
       { name: "徳島県", link: "tokushima" },
       { name: "香川県", link: "kagawa" },
@@ -70,7 +70,7 @@ export const AREAS = [
       { name: "高知県", link: "kochi" },
     ]
   },
-  { area: "九州", link: "kyusyu", prefectures:
+  { name: "九州", link: "kyusyu", objects:
     [
       { name: "福岡県", link: "fukuoka" },
       { name: "佐賀県", link: "saga" },

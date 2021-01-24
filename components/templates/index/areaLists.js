@@ -1,4 +1,4 @@
-import UnderLine from '../../atoms/link/underLine';
+import UnderLines from '../../molecules/link/underLines';
 import style from '../../../styles/templates/index/areaLists.module.scss';
 import React from 'react';
 import { AREAS } from '../../../utils/areas';
@@ -10,23 +10,14 @@ export default class AreaLists extends React.Component {
         <h2 className={style.title}>都道府県から検索する</h2>
         {AREAS.map((area) => {
           return (
-            <dl className={style.areaWrap}>
+            <dl key={area.name} className={style.areaWrap}>
               <dt className={style.title}>
-                <a href={area.link} className={style.link}>{area.area}</a>
+                <a href={area.link} className={style.link}>{area.name}</a>
               </dt>
               <dd className={style.wrap}>
-                <ul className={style.infoWrap}>
-                  {area.prefectures.map((prefecture) => {
-                    return (
-                      <li className={style.info}>
-                        <UnderLine
-                          link={prefecture.link}
-                          linkText={prefecture.name + "のリゾバ"}
-                        ></UnderLine>
-                      </li>
-                    )
-                  })}
-                </ul>
+                <UnderLines
+                  objects={area.objects}
+                ></UnderLines>
               </dd>
             </dl>
           )

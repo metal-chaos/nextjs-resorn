@@ -9,6 +9,7 @@ import Areas from '../components/templates/index/areas'
 import Features from '../components/templates/index/features'
 import Brands from '../components/templates/index/brands'
 import AreaLists from '../components/templates/index/areaLists'
+import Jobs from '../components/templates/index/jobs'
 import style from '../styles/pages/index.module.scss';
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
         color={style.gray}
       >
         <AreaLists></AreaLists>
+        <Jobs></Jobs>
       </ColorBackground>
     </Background>
     )

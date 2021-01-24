@@ -1,0 +1,13 @@
+@import '../../variable';
+
+.wrap {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+
+  .info {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: $font-sml;
+  }
+}
