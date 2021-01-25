@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Layout from '../components/layout'
 import Header from '../components/templates/index/header'
 import OnBoading from '../components/templates/index/onboading'
@@ -10,6 +9,7 @@ import Features from '../components/templates/index/features'
 import Brands from '../components/templates/index/brands'
 import AreaLists from '../components/templates/index/areaLists'
 import Jobs from '../components/templates/index/jobs'
+import Footer from '../components/templates/util/footer'
 import style from '../styles/pages/index.module.scss';
 
 export default function Home() {
@@ -36,6 +36,11 @@ export default function Home() {
       >
         <AreaLists></AreaLists>
         <Jobs></Jobs>
+      </ColorBackground>
+      <ColorBackground
+        color={style.secondary}
+      >
+        <Footer></Footer>
       </ColorBackground>
     </Background>
     )

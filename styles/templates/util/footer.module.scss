@@ -1,0 +1,31 @@
+@import '../../variable';
+
+.container {
+  margin: auto;
+  margin: 30px 150px;
+  text-align: left;
+
+  .logoWrap {
+    margin: auto;
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+    .desc {
+      display: block;
+      margin-top: 20px;
+      color: $sub;
+      text-align: center;
+      font-size: $font-sml;
+    }
+  }
+
+  .socialWrap {
+    .icon {
+      width: 30px;
+      text-align: center;
+      margin: auto;
+      cursor: pointer;
+    }
+  }
+}
