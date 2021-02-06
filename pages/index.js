@@ -10,6 +10,7 @@ import Brands from '../components/templates/index/brands'
 import AreaLists from '../components/templates/index/areaLists'
 import Jobs from '../components/templates/index/jobs'
 import Footer from '../components/templates/util/footer'
+import AreasModal from '../components/templates/util/areasModal'
 import style from '../styles/pages/index.module.scss';
 
 export default function Home() {
@@ -17,8 +18,9 @@ export default function Home() {
     <Background>
       <Layout>
         <Head>
-          <title>RESORN（リゾーン）- 求人数No.1のリゾートバイト（住み込み）求人比較サイト</title>
+          <title>RESORN（リゾーン）- リゾートバイト（住み込み）を可視化する求人比較サイト</title>
         </Head>
+        <AreasModal></AreasModal>
         <Header></Header>
         <OnBoading></OnBoading>
       </Layout>

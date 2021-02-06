@@ -5,6 +5,7 @@ $base: #fff;
 $base-wrap: #fffff1;
 $primary: #120078;
 $secondary: #9d0191;
+$secondary-thin: #a32c9a;
 $tertiary: #fd3a69;
 $quaternary: #fecd1a;
 $sub: #dedede;
@@ -34,3 +35,8 @@ $font-mini: 0.6rem;
 // font size (based on vw)
 $vw5: 5vw;
 $vw6: 6vw;
+
+// box-shadow
+$box-shadow: 6px 8px 37px -17px rgba(20,20,20,0.3);
+$box-shadow-general: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+$box-shadow-v: 6px 8px 37px 5px rgba(0,0,0,0.3);
